@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Diferenciais
-nav-menu: true
+nav-menu: false
 description: Atendimento dedicado, personalizado e consultivo, sempre buscando a solução que você realmente precisa
 ---
 
