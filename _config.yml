@@ -1,0 +1,26 @@
+# site settings
+title: 314
+subtitle: Digital
+email: 314digital@protonmail.com
+description: Marketing digital <br /> em soluções personalizadas para sua necessidade
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author: Juliana Guidão
+street_address: Alameda Santos
+city: São Paulo
+state: SP
+country: Brasil
+phone: +55 (11) 99237-4020‬
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings
+
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed

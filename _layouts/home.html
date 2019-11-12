@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1>
+            </header>
+            <div class="content">
+                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <ul class="actions">
+                    <li><a href="#contact" class="button next scrolly">Marque uma conversa</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- One -->
+        {% include tiles.html %}
+
+        <!-- Two -->
+        <section id="two">
+            <div class="inner">
+                <header class="major">
+                    <h2>Ainda está em dúvida?</h2>
+                </header>
+                <p>É perfeitamente normal! Por isso queremos te propor uma rápida conversa por WhatsApp ou ligação, o que preferir. Assim, você irá tirar todas as dúvidas e ainda entender quais serviços são mais interessantes para o seu tipo de negócio.</p>
+                <ul class="actions">
+                    <li><a href="#contact" class="button next">Mande uma mensagem</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
